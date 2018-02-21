@@ -1,0 +1,66 @@
+
+@font-face {
+	font-family: 'WooCommerce';
+	src: url('../../../woocommerce/assets/fonts/WooCommerce.eot');
+	src: url('../../../woocommerce/assets/fonts/WooCommerce.eot?#iefix') format('embedded-opentype'),
+		url('../../../woocommerce/assets/fonts/WooCommerce.woff') format('woff'),
+		url('../../../woocommerce/assets/fonts/WooCommerce.ttf') format('truetype'),
+		url('../../../woocommerce/assets/fonts/WooCommerce.svg#WooCommerce') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import '../../../woocommerce/assets/css/_mixins.scss';
+
+.wc-add-to-cart-icon {
+
+	.single_add_to_cart_button, .add_to_cart_button.text_replaceable {
+		box-sizing: border-box;
+		position: relative;
+
+		&:before {
+			@include iconbefore('\e01d');
+			font-weight: inherit;
+			height: 1em;
+			position: relative;
+			top: 1px;
+			display: inline-block;
+		}
+
+	}
+
+	&.wc-add-to-cart-no-text {
+		.single_add_to_cart_button, .add_to_cart_button.text_replaceable {
+			min-width: 1em;
+			width: 4em;
+			text-indent: -9999px;
+
+			&:before {
+				position: absolute;
+				left: 0;
+				top: 50%;
+				width: 100%;
+				text-indent: 0;
+				margin-right: 0;
+				margin-top: -0.5em;
+			}
+		}
+
+		// WC Product Table plugin
+		.wc-product-table .single_add_to_cart_button.added {
+			width: 6em;
+
+			&:before {
+				left: -1.1em;
+			}
+			&:after {
+				position: absolute;
+				text-indent: 0;
+				right: 1.2em;
+				top: 50%;
+				margin-top: -0.5em;
+			}
+		}
+	}
+
+}
