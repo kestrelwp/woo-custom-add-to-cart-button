@@ -1,17 +1,16 @@
 var gulp = require( 'gulp' ),
 	pump = require( 'pump' ),
-	jshint = require( 'gulp-jshint' ),
 	minify = require( 'gulp-uglify' ),
 	cleancss = require( 'gulp-clean-css' ),
+	sass = require( 'gulp-sass' ),
 	fs = require( 'fs' ),
 	header = require( 'gulp-header' ),
 	rename = require( 'gulp-rename' ),
 	run = require( 'gulp-run' ),
 	debug = require( 'gulp-debug' ),
-	checktextdomain = require( 'gulp-checktextdomain' ),
-	sftp = require( 'gulp-sftp' );
+	checktextdomain = require( 'gulp-checktextdomain' );
 
-const pluginSlug = 'woocommerce-custom-add-to-cart';
+const pluginSlug = 'woocommerce-custom-add-to-cart-button';
 const zipFile = pluginSlug + '.zip';
 const pluginArchive = '/Users/andy/Dropbox/Barn2 Media/Plugins/Plugin archive/';
 
@@ -25,36 +24,26 @@ var getCopyright = function() {
 	return fs.readFileSync( 'copyright.txt' );
 };
 
-gulp.task( 'styles', function( cb ) {
+gulp.task( 'sass:watch', function() {
+	gulp.watch( 'assets/scss/**/*.scss', ['sass'] );
+} );
+
+gulp.task( 'sass', function( cb ) {
 	pump( [
-		gulp.src( ['assets/css/*.css', '!**/*.min.css'], { base: './' } ),
-		header( getCopyright( ), { 'version': getVersion( ) } ),
-		cleancss( { compatibility: 'ie9' } ),
-		rename( { suffix: '.min' } ),
-		gulp.dest( '.' )
+		gulp.src( 'assets/scss/**/*.scss' ),
+		sass( { outputStyle: 'nested' } ).on( 'error', sass.logError ),
+		gulp.dest( 'assets/css' )
 	], cb );
 } );
 
-gulp.task( 'zip', ['styles'], function() {
-	var zipCommand = `cd .. && rm ${zipFile}; zip -r ${zipFile} ${pluginSlug} -x *vendor* *node_modules* *.git* *.DS_Store *package*.json *gulpfile.js *copyright.txt`;
-
-	return run( zipCommand ).exec();
-} );
-
-gulp.task( 'copy', ['zip'], function() {
-	var deployDir = pluginArchive + pluginSlug + '/' + getVersion();
-
-	if ( !fs.existsSync( deployDir ) ) {
-		fs.mkdirSync( deployDir );
-	}
-
-	// Only deploy if zip doesn't already exist as we don't want to override release by mistake
-	if ( !fs.existsSync( deployDir + '/' + zipFile ) ) {
-		return gulp.src( zipFile, { cwd: '../' } )
-			.pipe( debug() )
-			.pipe( gulp.dest( deployDir ) );
-	}
-	return false;
+gulp.task( 'styles', ['sass'], function( cb ) {
+	pump( [
+		gulp.src( ['assets/css/**/*.css', '!**/*.min.css'] ),
+		cleancss( { compatibility: 'ie9' } ),
+		header( getCopyright( ), { 'version': getVersion( ) } ),
+		rename( { suffix: '.min' } ),
+		gulp.dest( 'assets/css' )
+	], cb );
 } );
 
 gulp.task( 'textdomain', function() {
@@ -83,7 +72,25 @@ gulp.task( 'textdomain', function() {
 			);
 } );
 
-gulp.task( 'build', ['styles', 'lint', 'textdomain', 'zip'] );
+gulp.task( 'zip', ['styles'], function() {
+	var zipCommand = `cd .. && rm ${zipFile}; zip -r ${zipFile} ${pluginSlug} -x *vendor* *node_modules* *.git* *.DS_Store *package*.json *gulpfile.js *copyright.txt`;
+
+	return run( zipCommand ).exec();
+} );
+
+gulp.task( 'copy', ['zip'], function() {
+	var deployDir = pluginArchive + pluginSlug + '/' + getVersion();
+
+	if ( !fs.existsSync( deployDir ) ) {
+		fs.mkdirSync( deployDir );
+	}
+
+	return gulp.src( zipFile, { cwd: '../' } )
+		.pipe( debug() )
+		.pipe( gulp.dest( deployDir ) );
+} );
+
+
+gulp.task( 'build', ['styles', 'textdomain', 'zip'] );
 gulp.task( 'release', ['build', 'copy'] );
-gulp.task( 'release-deploy', ['release', 'readme'] );
-gulp.task( 'default', ['release'] );
+gulp.task( 'default', ['build'] );

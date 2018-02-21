@@ -6,8 +6,8 @@
  *
  * @wordpress-plugin
  * Plugin Name:       WooCommerce Custom Add To Cart Button
- * Plugin URI:		  https://barn2.co.uk/wordpress-plugins/woocommerce-custom-add-to-cart/
- * Description:       Change the 'Add to Cart' text in WooCommerce, and add a cart icon to the buttons.
+ * Plugin URI:		  https://barn2.co.uk/wordpress-plugins/woocommerce-custom-add-to-cart-button/
+ * Description:       Change the 'Add to Cart' button text in WooCommerce, and optionally add a cart icon.
  * Version:           1.0
  * Author:            Barn2 Media
  * Author URI:        https://barn2.co.uk
@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @link      https://barn2.co.uk
  * @copyright 2016-2018 Barn2 Media Ltd
  */
-class WC_Custom_Add_To_Cart {
+class WC_Custom_Add_To_Cart_Button {
 
 	const NAME		 = 'WooCommerce Custom Add To Cart';
 	const VERSION		 = '1.0';
@@ -104,11 +104,11 @@ class WC_Custom_Add_To_Cart {
 	}
 
 	private function load_textdomain() {
-		load_plugin_textdomain( 'woocommerce-custom-add-to-cart', false, dirname( $this->plugin_basename ) . '/languages' );
+		load_plugin_textdomain( 'woocommerce-custom-add-to-cart-button', false, dirname( $this->plugin_basename ) . '/languages' );
 	}
 
 }
 // plugin class
 
 /* Load the plugin */
-WC_Custom_Add_To_Cart::bootstrap();
+WC_Custom_Add_To_Cart_Button::bootstrap();

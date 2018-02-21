@@ -17,5 +17,20 @@
     "button"
   ],
   "author": "Barn2 Media",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "homepage": "https://bitbucket.org/barn2media/woocommerce-custom-add-to-cart-button#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-checktextdomain": "^2.1.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-debug": "^3.2.0",
+    "gulp-header": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-run": "^1.7.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  }
 }

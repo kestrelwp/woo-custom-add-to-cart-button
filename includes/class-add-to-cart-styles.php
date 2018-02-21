@@ -31,7 +31,8 @@ class Add_To_Cart_Styles {
 	}
 
 	public function enqueue_styles() {
-		wp_enqueue_style( 'wc-custom-add-to-cart', $this->assets_url . 'css/wc-custom-add-to-cart.css', array(), $this->plugin_version );
+		$min = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
+		wp_enqueue_style( 'wc-custom-add-to-cart', $this->assets_url . "css/wc-custom-add-to-cart{$min}.css", array(), $this->plugin_version );
 	}
 
 	public function add_body_class( $classes ) {
