@@ -42,6 +42,22 @@ plugin, which is ideal for creating a one-page order form with multi-select chec
 1. Install via the Plugins screen in your WordPress dashboard, or download the ZIP, extract it, and upload to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the Plugins screen.
 1. Go to Appearance -> Customize, then open the WooCommerce -> Add to Cart Buttons panel to choose your settings.
+1. Change the Add to cart button text and tick the box to show the cart icon, if required
+
+== Screenshots ==
+
+
+== FAQ ==
+
+= Will it work with my theme? =
+
+The plugin inherits the styles from your theme. This means that the button size, font and color will be the same as the existing add to cart buttons in your store. The plugin will
+change the text and add an icon without affecting the overall button styling.
+
+= Can I choose a different icon, change the size, change colors, etc? =
+
+We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons or changing colors. Please use the support tab or our
+<a href="https://barn2.co.uk/plugin-feature-request/">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
 == Changelog ==
 

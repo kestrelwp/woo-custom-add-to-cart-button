@@ -63,7 +63,7 @@ class Add_To_Cart_Customizer {
 		);
 
 		$wp_customize->add_control( Util::OPTION_ADD_TO_CART_TEXT, array(
-			'label'			 => __( 'Add to cart text', 'wc-custom-add-to-cart' ),
+			'label'			 => __( 'Add to cart text', 'woocommerce-custom-add-to-cart-button' ),
 			'description'	 => __( 'The text for the add to cart buttons.', 'woocommerce-custom-add-to-cart-button' ),
 			'section'		 => self::ADD_TO_CART_SECTION,
 			'settings'		 => Util::OPTION_ADD_TO_CART_TEXT,
