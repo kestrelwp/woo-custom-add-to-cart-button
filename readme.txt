@@ -40,6 +40,10 @@ WooCommerce Custom Add to Cart Button is fully compatible with our <a href="http
 
 == Screenshots ==
 
+1. Buy Now buttons with icon
+2. Button text set to 'Add to Basket'
+3. Icon only option
+4. Example using 'Add to Quote' button text
 
 == FAQ ==
 
