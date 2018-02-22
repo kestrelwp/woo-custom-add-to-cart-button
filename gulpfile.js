@@ -10,7 +10,7 @@ var gulp = require( 'gulp' ),
 	debug = require( 'gulp-debug' ),
 	checktextdomain = require( 'gulp-checktextdomain' );
 
-const pluginSlug = 'woocommerce-custom-add-to-cart-button';
+const pluginSlug = 'woo-custom-add-to-cart-button';
 const zipFile = pluginSlug + '.zip';
 const pluginArchive = '/Users/andy/Dropbox/Barn2 Media/Plugins/Plugin archive/';
 

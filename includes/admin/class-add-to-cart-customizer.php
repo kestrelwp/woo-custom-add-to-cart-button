@@ -48,7 +48,7 @@ class Add_To_Cart_Customizer {
 	private function add_add_to_cart_section( $wp_customize ) {
 
 		$wp_customize->add_section( self::ADD_TO_CART_SECTION, array(
-			'title'		 => __( 'Add To Cart Buttons', 'woocommerce-custom-add-to-cart-button' ),
+			'title'		 => __( 'Add To Cart Buttons', 'woo-custom-add-to-cart-button' ),
 			'priority'	 => 50,
 			'panel'		 => 'woocommerce',
 			)
@@ -63,8 +63,8 @@ class Add_To_Cart_Customizer {
 		);
 
 		$wp_customize->add_control( Util::OPTION_ADD_TO_CART_TEXT, array(
-			'label'			 => __( 'Add to cart text', 'woocommerce-custom-add-to-cart-button' ),
-			'description'	 => __( 'The text for the add to cart buttons.', 'woocommerce-custom-add-to-cart-button' ),
+			'label'			 => __( 'Add to cart text', 'woo-custom-add-to-cart-button' ),
+			'description'	 => __( 'The text for the add to cart buttons.', 'woo-custom-add-to-cart-button' ),
 			'section'		 => self::ADD_TO_CART_SECTION,
 			'settings'		 => Util::OPTION_ADD_TO_CART_TEXT,
 			'type'			 => 'text',
@@ -81,7 +81,7 @@ class Add_To_Cart_Customizer {
 		);
 
 		$wp_customize->add_control( Util::OPTION_ADD_TO_CART_ICON, array(
-			'label'		 => __( 'Show add to cart icon', 'woocommerce-custom-add-to-cart-button' ),
+			'label'		 => __( 'Show add to cart icon', 'woo-custom-add-to-cart-button' ),
 			'section'	 => self::ADD_TO_CART_SECTION,
 			'settings'	 => Util::OPTION_ADD_TO_CART_ICON,
 			'type'		 => 'checkbox',
@@ -98,7 +98,7 @@ class Add_To_Cart_Customizer {
 		);
 
 		$wp_customize->add_control( Util::OPTION_ADD_TO_CART_ICON_ONLY, array(
-			'label'		 => __( 'Hide the add to cart text', 'woocommerce-custom-add-to-cart-button' ),
+			'label'		 => __( 'Hide the add to cart text', 'woo-custom-add-to-cart-button' ),
 			'section'	 => self::ADD_TO_CART_SECTION,
 			'settings'	 => Util::OPTION_ADD_TO_CART_ICON_ONLY,
 			'type'		 => 'checkbox',

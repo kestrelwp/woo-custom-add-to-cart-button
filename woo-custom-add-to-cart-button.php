@@ -11,7 +11,7 @@
  * Version:           1.0
  * Author:            Barn2 Media
  * Author URI:        https://barn2.co.uk
- * Text Domain:       woocommerce-custom-add-to-cart-button
+ * Text Domain:       woo-custom-add-to-cart-button
  * Domain Path:       /languages
  *
  * WC requires at least: 3.0
@@ -104,7 +104,7 @@ class WC_Custom_Add_To_Cart_Button {
 	}
 
 	private function load_textdomain() {
-		load_plugin_textdomain( 'woocommerce-custom-add-to-cart-button', false, dirname( $this->plugin_basename ) . '/languages' );
+		load_plugin_textdomain( 'woo-custom-add-to-cart-button', false, dirname( $this->plugin_basename ) . '/languages' );
 	}
 
 }
