@@ -78,7 +78,7 @@ gulp.task( 'zip', ['styles'], function() {
 	return run( zipCommand ).exec();
 } );
 
-gulp.task( 'copy', ['zip'], function() {
+gulp.task( 'archive', ['zip'], function() {
 	var pluginDir = pluginArchive + pluginSlug;
 
 	if ( !fs.existsSync( pluginDir ) ) {
@@ -95,7 +95,12 @@ gulp.task( 'copy', ['zip'], function() {
 		.pipe( gulp.dest( deployDir ) );
 } );
 
+gulp.task( 'svn', ['styles', 'textdomain'], function() {
+	gulp
+		.src( ['**/*', '!./node_modules', '!./.gitignore', '!./copyright.txt', './*.json'] )
+		.dest( '../../../wordpress-svn/' + pluginSlug + '/trunk' );
+} );
 
 gulp.task( 'build', ['styles', 'textdomain', 'zip'] );
-gulp.task( 'release', ['build', 'copy'] );
+gulp.task( 'release', ['build', 'archive', 'svn'] );
 gulp.task( 'default', ['build'] );

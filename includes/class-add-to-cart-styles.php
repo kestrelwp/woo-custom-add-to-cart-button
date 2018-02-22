@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Registers our stylesheet and adds any CSS classes to the body and cart buttons.
  *
- * @package   WooCommerce_Custom_Add_To_Cart_Button
+ * @package   Barn2\WooCommerce_Custom_Add_To_Cart_Button
  * @author    Barn2 Media <info@barn2.co.uk>
  * @license   GPL-3.0
  * @link      https://barn2.co.uk

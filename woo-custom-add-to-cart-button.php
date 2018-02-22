@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * The main plugin class.
  *
- * @package   WooCommerce_Custom_Add_To_Cart_Button
+ * @package   Barn2\WooCommerce_Custom_Add_To_Cart_Button
  * @version   1.0
  * @author    Barn2 Media <info@barn2.co.uk>
  * @license   GPL-3.0

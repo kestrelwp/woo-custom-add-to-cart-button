@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Replaces the Add to Cart button text in WooCommerce.
  *
- * @package   WooCommerce_Custom_Add_To_Cart_Button
+ * @package   Barn2\WooCommerce_Custom_Add_To_Cart_Button
  * @author    Barn2 Media <info@barn2.co.uk>
  * @license   GPL-3.0
  * @link      https://barn2.co.uk
