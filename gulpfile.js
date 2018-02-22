@@ -79,7 +79,12 @@ gulp.task( 'zip', ['styles'], function() {
 } );
 
 gulp.task( 'copy', ['zip'], function() {
-	var deployDir = pluginArchive + pluginSlug + '/' + getVersion();
+	var pluginDir = pluginArchive + pluginSlug;
+
+	if ( !fs.existsSync( pluginDir ) ) {
+		fs.mkdirSync( pluginDir );
+	}
+	var deployDir = pluginDir + '/' + getVersion();
 
 	if ( !fs.existsSync( deployDir ) ) {
 		fs.mkdirSync( deployDir );
