@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://barn2media@bitbucket.org/barn2media/woocommerce-custom-add-to-cart-button.git"
+    "url": "git+https://github.com/andykeith/woo-custom-add-to-cart-button.git"
   },
   "keywords": [
     "woocommerce",
@@ -18,19 +18,20 @@
   ],
   "author": "Barn2 Media",
   "license": "GPL-3.0",
-  "homepage": "https://bitbucket.org/barn2media/woocommerce-custom-add-to-cart-button#readme",
-  "dependencies": {},
+  "homepage": "https://github.com/andykeith/woo-custom-add-to-cart-button",
+  "dependencies": {
+    "npm-check-updates": "^2.14.3"
+  },
   "devDependencies": {
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
-    "gulp-checktextdomain": "^2.1.1",
-    "gulp-clean-css": "^3.9.2",
-    "gulp-debug": "^3.2.0",
-    "gulp-header": "^2.0.1",
-    "gulp-rename": "^1.2.2",
+    "gulp": "^4.0.0",
+    "gulp-checktextdomain": "^2.2.0",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.5",
+    "gulp-rename": "^1.4.0",
     "gulp-run": "^1.7.1",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^3.0.0",
+    "gulp-uglify": "^3.0.1",
     "pump": "^3.0.0"
   }
 }

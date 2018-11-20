@@ -2,7 +2,6 @@ var gulp = require( 'gulp' ),
 	pump = require( 'pump' ),
 	minify = require( 'gulp-uglify' ),
 	cleancss = require( 'gulp-clean-css' ),
-	sass = require( 'gulp-sass' ),
 	fs = require( 'fs' ),
 	header = require( 'gulp-header' ),
 	rename = require( 'gulp-rename' ),
@@ -11,6 +10,8 @@ var gulp = require( 'gulp' ),
 	checktextdomain = require( 'gulp-checktextdomain' );
 
 const pluginSlug = 'woo-custom-add-to-cart-button';
+const textDomain = 'woo-custom-add-to-cart-button';
+
 const zipFile = pluginSlug + '.zip';
 const pluginArchive = '/Users/andy/Dropbox/Barn2 Media/Plugins/Plugin archive/';
 
@@ -24,19 +25,8 @@ var getCopyright = function() {
 	return fs.readFileSync( 'copyright.txt' );
 };
 
-gulp.task( 'sass:watch', function() {
-	gulp.watch( 'assets/scss/**/*.scss', ['sass'] );
-} );
 
-gulp.task( 'sass', function( cb ) {
-	pump( [
-		gulp.src( 'assets/scss/**/*.scss' ),
-		sass( { outputStyle: 'nested' } ).on( 'error', sass.logError ),
-		gulp.dest( 'assets/css' )
-	], cb );
-} );
-
-gulp.task( 'styles', ['sass'], function( cb ) {
+function styles( cb ) {
 	pump( [
 		gulp.src( ['assets/css/**/*.css', '!**/*.min.css'] ),
 		cleancss( { compatibility: 'ie9' } ),
@@ -44,14 +34,14 @@ gulp.task( 'styles', ['sass'], function( cb ) {
 		rename( { suffix: '.min' } ),
 		gulp.dest( 'assets/css' )
 	], cb );
-} );
+}
 
-gulp.task( 'textdomain', function() {
+function textdomain() {
 	return gulp
 		.src( '**/*.php' )
 		.pipe(
 			checktextdomain( {
-				text_domain: pluginSlug,
+				text_domain: [textDomain, 'woocommerce'],
 				keywords: [
 					'__:1,2d',
 					'_e:1,2d',
@@ -70,15 +60,17 @@ gulp.task( 'textdomain', function() {
 				]
 			} )
 			);
-} );
+}
 
-gulp.task( 'zip', ['styles'], function() {
+function createZipFile() {
 	var zipCommand = `cd .. && rm ${zipFile}; zip -r ${zipFile} ${pluginSlug} -x *vendor* *node_modules* *.git* *.DS_Store *package*.json *gulpfile.js *copyright.txt`;
 
 	return run( zipCommand ).exec();
-} );
+}
 
-gulp.task( 'archive', ['zip'], function() {
+var zip = gulp.series( styles, createZipFile );
+
+function archiveZipFile() {
 	var pluginDir = pluginArchive + pluginSlug;
 
 	if ( !fs.existsSync( pluginDir ) ) {
@@ -93,14 +85,15 @@ gulp.task( 'archive', ['zip'], function() {
 	return gulp.src( zipFile, { cwd: '../' } )
 		.pipe( debug() )
 		.pipe( gulp.dest( deployDir ) );
-} );
+}
 
-gulp.task( 'svn', ['styles', 'textdomain'], function() {
-	gulp
+function copyToSvnFolder() {
+	return gulp
 		.src( ['**/*', '!./node_modules', '!./.gitignore', '!./copyright.txt', './*.json'] )
 		.dest( '../../../wordpress-svn/' + pluginSlug + '/trunk' );
-} );
+}
 
-gulp.task( 'build', ['styles', 'textdomain', 'zip'] );
-gulp.task( 'release', ['build', 'archive', 'svn'] );
-gulp.task( 'default', ['build'] );
+var build = gulp.parallel( zip, textdomain );
+var release = gulp.series( build, archiveZipFile, copyToSvnFolder );
+
+module.exports = { build: build, release: release, default: build };
