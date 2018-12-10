@@ -2,7 +2,7 @@
 Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Requires at least: 4.0
-Tested up to: 4.9.8
+Tested up to: 5.0
 Requires PHP: 5.3
 Stable tag: 1.0
 License: GNU General Public License v3.0
