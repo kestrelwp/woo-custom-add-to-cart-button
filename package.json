@@ -20,18 +20,17 @@
   "license": "GPL-3.0",
   "homepage": "https://github.com/andykeith/woo-custom-add-to-cart-button",
   "dependencies": {
-    "npm-check-updates": "^2.14.3"
+    "npm-check-updates": "^3.1.12"
   },
   "devDependencies": {
     "fs": "0.0.1-security",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-checktextdomain": "^2.2.0",
-    "gulp-clean-css": "^3.10.0",
+    "gulp-clean-css": "^4.2.0",
     "gulp-debug": "^4.0.0",
-    "gulp-header": "^2.0.5",
+    "gulp-header": "^2.0.7",
     "gulp-rename": "^1.4.0",
     "gulp-run": "^1.7.1",
-    "gulp-uglify": "^3.0.1",
     "pump": "^3.0.0"
   }
 }
