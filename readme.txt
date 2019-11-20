@@ -1,12 +1,13 @@
 === WooCommerce Custom Add To Cart Button ===
 Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
-Requires at least: 4.0
-Tested up to: 5.0
-Requires PHP: 5.3
-Stable tag: 1.0
+Donate link: https://barn2.co.uk
+Requires at least: 4.4
+Tested up to: 5.3
+Requires PHP: 5.4
+Stable tag: 1.1
 License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
+License URI: https://www.gnu.org/licenses/gpl.html
 
 Customize the Add to Cart buttons in WooCommerce by changing the text or adding a cart icon.
 
@@ -57,7 +58,20 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 
 == Changelog ==
 
+= 1.1 =
+Release date 20 November 2019
+
+ * Update plugin architecture and Barn2 library code.
+ * Added link to settings page from main Plugins menu.
+ * Tested up to WordPress 5.3 and WooCommerce 3.8.
+
 = 1.0 =
 Release date 21 February 2018
 
 * Initial release.
+
+== Upgrade Notice ==
+
+= 1.1 =
+
+The plugin now requires a minimum PHP version of 5.4.

@@ -5,6 +5,7 @@
   src: url("../../../woocommerce/assets/fonts/WooCommerce.eot?#iefix") format("embedded-opentype"), url("../../../woocommerce/assets/fonts/WooCommerce.woff") format("woff"), url("../../../woocommerce/assets/fonts/WooCommerce.ttf") format("truetype"), url("../../../woocommerce/assets/fonts/WooCommerce.svg#WooCommerce") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 /**
  * Deprecated
  * Fallback for bourbon equivalent
@@ -83,6 +84,7 @@
     position: relative;
     top: 1px;
     display: inline-block; }
+
 .wc-add-to-cart-icon.wc-add-to-cart-no-text .single_add_to_cart_button, .wc-add-to-cart-icon.wc-add-to-cart-no-text .add_to_cart_button.text_replaceable {
   min-width: 1em;
   width: 4em;
@@ -95,6 +97,7 @@
     text-indent: 0;
     margin-right: 0;
     margin-top: -0.5em; }
+
 .wc-add-to-cart-icon.wc-add-to-cart-no-text .wc-product-table .single_add_to_cart_button.added {
   width: 6em; }
   .wc-add-to-cart-icon.wc-add-to-cart-no-text .wc-product-table .single_add_to_cart_button.added:before {
@@ -105,5 +108,3 @@
     right: 1.2em;
     top: 50%;
     margin-top: -0.5em; }
-
-/*# sourceMappingURL=wc-custom-add-to-cart.css.map */
