@@ -1,0 +1,21 @@
+{
+    "name": "barn2/woo-custom-add-to-cart-button",
+    "description": "WooCommerce Custom Add to Cart Button plugin for WordPress.",
+    "type": "project",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Barn2 Plugins",
+            "email": "support@barn2.co.uk"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Barn2\\Plugin\\WC_Custom_Cart_Button\\": "src",
+            "Barn2\\WCB_Lib\\": "lib"
+        },
+        "files": []
+    }
+}
