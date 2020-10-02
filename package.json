@@ -1,0 +1,25 @@
+{
+  "name": "woo-custom-add-to-cart-button",
+  "version": "1.1.0",
+  "description": "WooCommerce Custom Add to Cart Button plugin for WordPress.",
+  "main": "gulpfile.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andykeith/woo-custom-add-to-cart-button.git"
+  },
+  "author": "Barn2 Plugins",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/andykeith/woo-custom-add-to-cart-button/issues"
+  },
+  "homepage": "https://github.com/andykeith/woo-custom-add-to-cart-button#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
