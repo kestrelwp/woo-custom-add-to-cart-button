@@ -1,29 +1,37 @@
 <?php
-
 namespace Barn2\Plugin\WC_Custom_Cart_Button;
 
-use Barn2\Lib\Registerable,
-    Barn2\Lib\Service_Provider,
-    Barn2\Lib\Plugin\Simple_Plugin;
+use Barn2\Plugin\WC_Custom_Cart_Button\Admin\Add_To_Cart_Customizer,
+    Barn2\WCB_Lib\Registerable,
+    Barn2\WCB_Lib\Translatable,
+    Barn2\WCB_Lib\Service_Provider,
+    Barn2\WCB_Lib\Service_Container,
+    Barn2\WCB_Lib\Plugin\Simple_Plugin,
+    Barn2\WCB_Lib\Plugin\Admin\Admin_Links,
+    Barn2\WCB_Lib\Util as Lib_Util;
 
 /**
  * The main plugin class.
  *
- * @author    Barn2 Media <info@barn2.co.uk>
+ * @package   Barn2\woo-custom-add-to-cart-button
+ * @author    Barn2 Plugins <support@barn2.co.uk>
  * @license   GPL-3.0
  * @copyright Barn2 Media Ltd
  */
-class Plugin extends Simple_Plugin implements Registerable, Service_Provider {
+class Plugin extends Simple_Plugin implements Registerable, Translatable, Service_Provider {
 
-    const NAME = 'WooCommerce Custom Add To Cart';
+    const NAME = 'WooCommerce Custom Add To Cart Button';
 
-    private $services = [];
+    use Service_Container;
 
     public function __construct( $file, $version = '1.0' ) {
         parent::__construct( [
-            'name'    => self::NAME,
-            'file'    => $file,
-            'version' => $version
+            'name'               => self::NAME,
+            'file'               => $file,
+            'version'            => $version,
+            'is_woocommerce'     => true,
+            'documentation_path' => 'kb-categories/custom-add-to-cart-kb/',
+            'settings_path'      => 'customize.php?autofocus[section]=' . Add_To_Cart_Customizer::ADD_TO_CART_SECTION,
         ] );
     }
 
@@ -35,32 +43,24 @@ class Plugin extends Simple_Plugin implements Registerable, Service_Provider {
 
     public function maybe_load_plugin() {
         // Bail early if WooCommerce isn't installed.
-        if ( ! \Barn2\Lib\Util::is_woocommerce_active() ) {
+        if ( ! Lib_Util::is_woocommerce_active() ) {
             return;
         }
 
-        // Add settings to the Customizer
-        $this->services['customizer'] = new Admin\Add_To_Cart_Customizer( $this->get_basename() );
+        $this->register_services();
+    }
 
-        // Initialise the front-end classes
-        if ( \Barn2\Lib\Util::is_front_end() ) {
-            $this->services['replacer'] = new Add_To_Cart_Replacer();
-            $this->services['styles']   = new Add_To_Cart_Styles( $this->get_file(), $this->get_version() );
-        }
-
-        array_map( function( $service ) {
-            if ( $service instanceof Registerable ) {
-                $service->register();
-            }
-        }, $this->services );
+    public function create_services() {
+        return [
+            'admin_links' => new Admin_Links( $this ),
+            'customizer'  => new Add_To_Cart_Customizer( $this->get_basename() ),
+            'replacer'    => new Add_To_Cart_Replacer(),
+            'styles'      => new Add_To_Cart_Styles( $this->get_file(), $this->get_version() )
+        ];
     }
 
     public function load_textdomain() {
-        \load_plugin_textdomain( 'woo-custom-add-to-cart-button', false, \dirname( $this->get_basename() ) . '/languages' );
-    }
-
-    public function get_service( $id ) {
-        return ! empty( $this->services[$id] ) ? $this->services[$id] : null;
+        load_plugin_textdomain( 'woo-custom-add-to-cart-button', false, $this->get_slug() . '/languages' );
     }
 
 }

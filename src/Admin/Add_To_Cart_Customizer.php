@@ -1,13 +1,14 @@
 <?php
 namespace Barn2\Plugin\WC_Custom_Cart_Button\Admin;
 
-use Barn2\Lib\Registerable,
+use Barn2\WCB_Lib\Registerable,
     Barn2\Plugin\WC_Custom_Cart_Button\Util;
 
 /**
- * Registers our Customizer settings.
+ * Registers the Customizer settings.
  *
- * @author    Barn2 Media <info@barn2.co.uk>
+ * @package   Barn2\woo-custom-add-to-cart-button
+ * @author    Barn2 Plugins <support@barn2.co.uk>
  * @license   GPL-3.0
  * @copyright Barn2 Media Ltd
  */
@@ -22,26 +23,8 @@ class Add_To_Cart_Customizer implements Registerable {
     }
 
     public function register() {
-        \add_filter( 'plugin_action_links_' . $this->basename, [ $this, 'add_settings_link' ] );
-        \add_action( 'customize_register', [ $this, 'add_sections' ], 20 ); // after WooCommerce
-        \add_action( 'customize_controls_print_scripts', [ $this, 'add_scripts' ], 40 );
-    }
-
-    /**
-     * Adds a Settings link to the main Plugins page in the admin.
-     *
-     * @param array $links The list of links for the plugin.
-     * @return array
-     */
-    public function add_settings_link( $links ) {
-        \array_unshift(
-            $links,
-            \sprintf( '<a href="%1$s">%2$s</a>',
-                \esc_url( admin_url( '/customize.php?autofocus[section]=' . self::ADD_TO_CART_SECTION ) ),
-                \esc_html__( 'Settings', 'woo-custom-add-to-cart-button' )
-            )
-        );
-        return $links;
+        add_action( 'customize_register', [ $this, 'add_sections' ], 20 ); // after WooCommerce
+        add_action( 'customize_controls_print_scripts', [ $this, 'add_scripts' ], 40 );
     }
 
     /**
@@ -132,11 +115,10 @@ class Add_To_Cart_Customizer implements Registerable {
         ?>
         <script type="text/javascript">
             jQuery( document ).ready( function( $ ) {
-
-                wp.customize.section( '<?php echo \esc_js( self:: ADD_TO_CART_SECTION ); ?>', function( section ) {
+                wp.customize.section( '<?php echo esc_js( self:: ADD_TO_CART_SECTION ); ?>', function( section ) {
                     section.expanded.bind( function( isExpanded ) {
                         if ( isExpanded ) {
-                            wp.customize.previewer.previewUrl.set( '<?php echo \esc_js( \wc_get_page_permalink( 'shop' ) ); ?>' );
+                            wp.customize.previewer.previewUrl.set( '<?php echo esc_js( wc_get_page_permalink( 'shop' ) ); ?>' );
                         }
                     } );
                 } );
