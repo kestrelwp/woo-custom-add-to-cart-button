@@ -2,10 +2,10 @@
 Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Donate link: https://barn2.co.uk
-Requires at least: 4.4
-Tested up to: 5.3.2
-Requires PHP: 5.4
-Stable tag: 1.1
+Requires at least: 4.9
+Tested up to: 5.5.1
+Requires PHP: 5.6
+Stable tag: 1.1.1
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -32,12 +32,14 @@ Options are set in the Customizer. Once installed, go to Appearance -> Customize
 
 WooCommerce Custom Add to Cart Button is fully compatible with our <a href="https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/">WooCommerce Product Table</a> plugin, which is ideal for creating a one-page order form with multi-select checkboxes or simple cart icons.
 
+You can view the full [plugin documentation](https://barn2.co.uk/kb-categories/custom-add-to-cart-kb/) in our Knowledge Base.
+
 == Installation ==
 
 1. Install via the Plugins screen in your WordPress dashboard, or download the ZIP, extract it, and upload to the `/wp-content/plugins/` directory.
 1. Activate the plugin through the Plugins screen.
-1. Go to Appearance -> Customize, then open the WooCommerce -> Add to Cart Buttons panel to choose your settings.
-1. Change the Add to cart button text and tick the box to show the cart icon, if required
+1. Go to Appearance -> Customize, then go to WooCommerce -> Add to Cart Buttons to choose your settings.
+1. Change the Add To Cart button text and/or select the other options on this screen.
 
 == Screenshots ==
 
@@ -56,7 +58,17 @@ The plugin inherits the styles from your theme. This means that the button size,
 
 We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons or changing colors. Please use the support tab or our <a href="https://barn2.co.uk/plugin-feature-request/">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
+= Where can I find the documentation? =
+Please visit our [Knowledge Base](https://barn2.co.uk/kb-categories/custom-add-to-cart-kb/).
+
 == Changelog ==
+
+= 1.1.1 =
+Release date 2 October 2020
+
+ * Tested up to WordPress 5.5.1 and WooCommerce 4.6.
+ * Minor code improvements.
+ * Added Composer support.
 
 = 1.1 =
 Release date 20 November 2019
