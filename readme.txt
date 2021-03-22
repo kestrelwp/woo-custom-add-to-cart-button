@@ -3,7 +3,7 @@ Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Donate link: https://barn2.co.uk
 Requires at least: 4.9
-Tested up to: 5.5.1
+Tested up to: 5.7
 Requires PHP: 5.6
 Stable tag: 1.1.1
 License: GNU General Public License v3.0
@@ -21,16 +21,20 @@ You might want to make the button more visual by adding a cart icon before the t
 
 Add to cart button options:
 
- * Change the WooCommerce add to cart button text
- * Add a cart icon next to the text
- * Remove the text and just show a cart icon
- * Case sensitive, so you get full control over whether the add to cart button text appears in uppercase, lowercase or sentence case
+* Change the WooCommerce add to cart button text
+* Add a cart icon next to the text
+* Remove the text and just show a cart icon
+* Case sensitive, so you get full control over whether the add to cart button text appears in uppercase, lowercase or sentence case
 
 WooCommerce Custom Add to Cart Button is fully accessible. If you choose to display just the cart icon, the text is still present in the HTML and can be read by screen readers.
 
 Options are set in the Customizer. Once installed, go to Appearance -> Customize -> WooCommerce -> Add to Cart Buttons and choose your settings.
 
-WooCommerce Custom Add to Cart Button is fully compatible with our <a href="https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/">WooCommerce Product Table</a> plugin, which is ideal for creating a one-page order form with multi-select checkboxes or simple cart icons.
+WooCommerce Custom Add to Cart Button is fully compatible with other Barn2 plugins, including:
+
+* [WooCommerce Product Table](https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/?utm=content&utm_source=wporg&utm_content=atoc-free) - List products in a quick one-page order form.
+* [WooCommerce Quick View Pro](https://barn2.co.uk/wordpress-plugins/woocommerce-quick-view-pro/?utm=content&utm_source=wporg&utm_content=atoc-free) - Speed up shopping by adding quick view lightboxes.
+* [WooCommerce Bulk Variations](https://barn2.co.uk/wordpress-plugins/woocommerce-bulk-variations/?utm=content&utm_source=wporg&utm_content=atoc-free) - Let customers buy multiple variations in a single click.
 
 You can view the full [plugin documentation](https://barn2.co.uk/kb-categories/custom-add-to-cart-kb/) in our Knowledge Base.
 

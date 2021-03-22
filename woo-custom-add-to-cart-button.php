@@ -18,7 +18,7 @@
  * Domain Path:     /languages
  *
  * WC requires at least: 3.7
- * WC tested up to: 4.6
+ * WC tested up to: 5.1.0
  *
  * Copyright:       Barn2 Media Ltd
  * License:         GNU General Public License v3.0
