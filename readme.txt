@@ -51,6 +51,9 @@ You can view the full [plugin documentation](https://barn2.co.uk/kb-categories/c
 2. Button text set to 'Add to Basket'
 3. Icon only option
 4. Example using 'Add to Quote' button text
+5. Use with WooCommerce Product Table to create quick one-page order forms.
+6. Use with WooCommerce Quick View Pro to speed up shopping with a lightbox.
+7. Use with WooCommerce Bulk Variations so customers can buy multiple variations with one click.
 
 == FAQ ==
 
