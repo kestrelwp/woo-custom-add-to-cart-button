@@ -1,10 +1,10 @@
 === WooCommerce Custom Add To Cart Button ===
 Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
-Donate link: https://barn2.co.uk
-Requires at least: 4.9
-Tested up to: 5.8
-Requires PHP: 5.6
+Donate link: https://barn2.com
+Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 7.1
 Stable tag: 1.1.2
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
@@ -32,11 +32,11 @@ Options are set in the Customizer. Once installed, go to Appearance -> Customize
 
 WooCommerce Custom Add to Cart Button is fully compatible with other Barn2 plugins, including:
 
-* [WooCommerce Product Table](https://barn2.co.uk/wordpress-plugins/woocommerce-product-table/?utm=content&utm_source=wporg&utm_content=atoc-free) - List products in a quick one-page order form.
-* [WooCommerce Quick View Pro](https://barn2.co.uk/wordpress-plugins/woocommerce-quick-view-pro/?utm=content&utm_source=wporg&utm_content=atoc-free) - Speed up shopping by adding quick view lightboxes.
-* [WooCommerce Bulk Variations](https://barn2.co.uk/wordpress-plugins/woocommerce-bulk-variations/?utm=content&utm_source=wporg&utm_content=atoc-free) - Let customers buy multiple variations in a single click.
+* [WooCommerce Product Table](https://barn2.com/wordpress-plugins/woocommerce-product-table/?utm=content&utm_source=wporg&utm_content=atoc-free) - List products in a quick one-page order form.
+* [WooCommerce Quick View Pro](https://barn2.com/wordpress-plugins/woocommerce-quick-view-pro/?utm=content&utm_source=wporg&utm_content=atoc-free) - Speed up shopping by adding quick view lightboxes.
+* [WooCommerce Bulk Variations](https://barn2.com/wordpress-plugins/woocommerce-bulk-variations/?utm=content&utm_source=wporg&utm_content=atoc-free) - Let customers buy multiple variations in a single click.
 
-You can view the full [plugin documentation](https://barn2.co.uk/kb-categories/custom-add-to-cart-kb/) in our Knowledge Base.
+You can view the full [plugin documentation](https://barn2.com/kb-categories/custom-add-to-cart-kb/) in our Knowledge Base.
 
 == Installation ==
 
@@ -63,10 +63,10 @@ The plugin inherits the styles from your theme. This means that the button size,
 
 = Can I choose a different icon, change the size, change colors, etc? =
 
-We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons or changing colors. Please use the support tab or our <a href="https://barn2.co.uk/plugin-feature-request/">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
+We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons or changing colors. Please use the support tab or our <a href="https://barn2.com/plugin-feature-request/">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
 = Where can I find the documentation? =
-Please visit our [Knowledge Base](https://barn2.co.uk/kb-categories/custom-add-to-cart-kb/).
+Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb/).
 
 == Changelog ==
 
