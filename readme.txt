@@ -2,10 +2,10 @@
 Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Donate link: https://barn2.com
-Requires at least: 5.0
-Tested up to: 5.9
-Requires PHP: 7.1
-Stable tag: 1.1.2
+Requires at least: 5.2
+Tested up to: 6.0
+Requires PHP: 7.2
+Stable tag: 1.1.3
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -69,6 +69,11 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb/).
 
 == Changelog ==
+
+= 1.1.3 =
+Release date 13 May 2022
+
+ * Tested up to WordPress 6.0 and WooCommerce 6.5.1
 
 = 1.1.2 =
 Release date 27 July 2021
