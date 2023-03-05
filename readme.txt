@@ -5,7 +5,7 @@ Donate link: https://barn2.com
 Requires at least: 5.2
 Tested up to: 6.1.1
 Requires PHP: 7.2
-Stable tag: 1.1.4
+Stable tag: 1.1.5
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -69,6 +69,11 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.1.5 =
+Release date 05 Mar 2023 
+
+ * Tested up to WooCommerce 7.4.1 
 
 = 1.1.4 =
 Release date 24 Nov 2022
