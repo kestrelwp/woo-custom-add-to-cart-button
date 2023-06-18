@@ -25,6 +25,7 @@ class Add_To_Cart_Styles implements Registerable {
         add_action( 'wp_enqueue_scripts', [ $this, 'enqueue_styles' ] );
         add_filter( 'body_class', [ $this, 'add_body_class' ] );
         add_filter( 'woocommerce_loop_add_to_cart_args', [ $this, 'add_loop_button_class' ], 10, 2 );
+        add_action( 'wp_head', [ $this, 'customize_add_to_cart_style' ] );
     }
 
     public function enqueue_styles() {
@@ -61,6 +62,24 @@ class Add_To_Cart_Styles implements Registerable {
         }
 
         return $body_class;
+    }
+
+    public function customize_add_to_cart_style() {
+        if( get_option( Util::OPTION_ADD_TO_CART_BACKGROUND_COLOR ) ) {
+            echo '<style>
+                .button.add_to_cart_button, .single_add_to_cart_button {
+                    background-color: '. get_option( Util::OPTION_ADD_TO_CART_BACKGROUND_COLOR ) .'!important;
+                }
+            </style>';
+        }
+
+        if( get_option( Util::OPTION_ADD_TO_CART_COLOR ) ) {
+            echo '<style>
+                .button.add_to_cart_button, .single_add_to_cart_button {
+                    color: '. get_option( Util::OPTION_ADD_TO_CART_COLOR ) .'!important; 
+                }
+            </style>';
+        }
     }
 
 }
