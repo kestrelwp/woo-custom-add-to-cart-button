@@ -108,3 +108,8 @@
     right: 1.2em;
     top: 50%;
     margin-top: -0.5em; }
+    
+/* Theme Integration */
+.theme-enfold .add_to_cart_button span, .theme-enfold .single_add_to_cart_button span {
+  display: none !important;
+}
