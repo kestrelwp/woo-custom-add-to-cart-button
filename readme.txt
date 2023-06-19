@@ -3,17 +3,17 @@ Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Donate link: https://barn2.com
 Requires at least: 5.2
-Tested up to: 6.1.1
+Tested up to: 6.2
 Requires PHP: 7.2
-Stable tag: 1.1.5
+Stable tag: 1.2.0
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
-Customize the Add to Cart buttons in WooCommerce by changing the text or adding a cart icon.
+Customize the Add to Cart buttons in WooCommerce by changing the text, adding a cart icon or changing the colors.
 
 == Description ==
 
-WooCommerce Custom Add to Cart Button is a simple plugin to customize your store's add to cart buttons. It makes it easy to change the 'Add to cart' button text, add a cart icon to the button, or replace the text with just an icon.
+WooCommerce Custom Add to Cart Button is a simple plugin to customize your store's add to cart buttons. It makes it easy to change the 'Add to cart' button text, add a cart icon to the button, replace the text with just an icon, or change the background and text color.
 
 There are lots of reasons why you might want to change the add to cart text. Depending on how you're using WooCommerce you might want the button to say something different like 'Add to quote', 'Buy Now', 'BOOK EVENT', 'Enrol' or 'Make an Enquiry'.
 
@@ -25,6 +25,8 @@ Add to cart button options:
 * Add a cart icon next to the text
 * Remove the text and just show a cart icon
 * Case sensitive, so you get full control over whether the add to cart button text appears in uppercase, lowercase or sentence case
+* Change the background color of the WooCommerce add to cart button
+* Change the color of WooCommerce add to cart button text
 
 WooCommerce Custom Add to Cart Button is fully accessible. If you choose to display just the cart icon, the text is still present in the HTML and can be read by screen readers.
 
@@ -69,6 +71,14 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.2.0 =
+Release date 18 June 2023 
+
+* Tested up to WordPress 6.2
+* Tested up to WooCommerce 7.8.0
+* Add an option to change the button's background color
+* Add an option to change the button's text color
 
 = 1.1.5 =
 Release date 05 Mar 2023 
