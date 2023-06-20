@@ -21,33 +21,57 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: includes/admin/class-add-to-cart-customizer.php:41
-msgid "WooCommerce"
+#: lib/Util.php:30
+msgid "Read more"
 msgstr ""
 
-#: includes/admin/class-add-to-cart-customizer.php:51
-msgid "Add To Cart Buttons"
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
 msgstr ""
 
-#: includes/admin/class-add-to-cart-customizer.php:58
-#: includes/class-add-to-cart-replacer.php:41
+#: lib/Plugin/Admin/Admin_Links.php:70
+#, php-format
+msgid "View %s documentation"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:71
+msgid "Docs"
+msgstr ""
+
+#: src/Add_To_Cart_Replacer.php:36 src/Admin/Add_To_Cart_Customizer.php:60
 msgid "Add to cart"
 msgstr ""
 
-#: includes/admin/class-add-to-cart-customizer.php:66
+#: src/Admin/Add_To_Cart_Customizer.php:43
+msgid "WooCommerce"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:53
+msgid "Add To Cart Buttons"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:68
 msgid "Add to cart text"
 msgstr ""
 
-#: includes/admin/class-add-to-cart-customizer.php:67
+#: src/Admin/Add_To_Cart_Customizer.php:69
 msgid "The text for the add to cart buttons."
 msgstr ""
 
-#: includes/admin/class-add-to-cart-customizer.php:84
+#: src/Admin/Add_To_Cart_Customizer.php:86
 msgid "Show add to cart icon"
 msgstr ""
 
-#: includes/admin/class-add-to-cart-customizer.php:101
+#: src/Admin/Add_To_Cart_Customizer.php:103
 msgid "Hide the add to cart text"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:118
+msgid "Button background"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:132
+msgid "Button text color"
 msgstr ""
 
 #. Plugin Name of the plugin/theme

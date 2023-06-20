@@ -115,7 +115,7 @@ class Add_To_Cart_Customizer implements Registerable {
         );
 
         $wp_customize->add_control( new \WP_Customize_Color_Control( $wp_customize, Util::OPTION_ADD_TO_CART_BACKGROUND_COLOR, [
-            'label'    => __( 'Button Background', 'woo-custom-add-to-cart-button' ),
+            'label'    => __( 'Button background', 'woo-custom-add-to-cart-button' ),
             'section'  => self::ADD_TO_CART_SECTION,
             'settings' => Util::OPTION_ADD_TO_CART_BACKGROUND_COLOR
             ]
@@ -129,7 +129,7 @@ class Add_To_Cart_Customizer implements Registerable {
         );
 
         $wp_customize->add_control( new \WP_Customize_Color_Control( $wp_customize, Util::OPTION_ADD_TO_CART_COLOR, [
-            'label'    => __( 'Button Text Color', 'woo-custom-add-to-cart-button' ),
+            'label'    => __( 'Button text color', 'woo-custom-add-to-cart-button' ),
             'section'  => self::ADD_TO_CART_SECTION,
             'settings' => Util::OPTION_ADD_TO_CART_COLOR
             ]

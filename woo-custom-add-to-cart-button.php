@@ -11,7 +11,7 @@
  * Plugin Name:     WooCommerce Custom Add To Cart Button
  * Plugin URI:      https://barn2.co.uk/wordpress-plugins/woo-custom-add-to-cart-button/
  * Description:     Customize the Add to Cart buttons in WooCommerce by changing the text or adding a cart icon.
- * Version:         1.2.0
+ * Version:         1.2.1
  * Author:          Barn2 Plugins
  * Author URI:      https://barn2.co.uk
  * Text Domain:     woo-custom-add-to-cart-button
@@ -31,7 +31,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-const PLUGIN_VERSION = '1.2.0';
+const PLUGIN_VERSION = '1.2.1';
 const PLUGIN_FILE    = __FILE__;
 
 // Autoloader.

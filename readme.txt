@@ -5,7 +5,7 @@ Donate link: https://barn2.com
 Requires at least: 5.2
 Tested up to: 6.2
 Requires PHP: 7.2
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -25,7 +25,7 @@ Add to cart button options:
 * Add a cart icon next to the text
 * Remove the text and just show a cart icon
 * Case sensitive, so you get full control over whether the add to cart button text appears in uppercase, lowercase or sentence case
-* Change the background color of the WooCommerce add to cart button
+* Change the WooCommerce add to cart button color
 * Change the color of WooCommerce add to cart button text
 
 WooCommerce Custom Add to Cart Button is fully accessible. If you choose to display just the cart icon, the text is still present in the HTML and can be read by screen readers.
@@ -61,16 +61,21 @@ You can view the full [plugin documentation](https://barn2.com/kb-categories/cus
 
 = Will it work with my theme? =
 
-The plugin inherits the styles from your theme. This means that the button size, font and color will be the same as the existing add to cart buttons in your store. The plugin will change the text and add an icon without affecting the overall button styling.
+The plugin inherits the styles from your theme. This means that the button size and font will be the same as the existing add to cart buttons in your store. The plugin will change the text and add an icon without affecting the overall button styling.
 
 = Can I choose a different icon, change the size, change colors, etc? =
 
-We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons or changing colors. Please use the support tab or our <a href="https://barn2.com/plugin-feature-request/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
+We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://barn2.com/plugin-feature-request/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
 = Where can I find the documentation? =
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.2.1 = 
+Release date 20 June 2023 
+
+* Fix: Apply the background and text color to all buttons
 
 = 1.2.0 =
 Release date 18 June 2023 
