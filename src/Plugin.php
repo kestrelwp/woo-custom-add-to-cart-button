@@ -39,6 +39,7 @@ class Plugin extends Simple_Plugin implements Registerable, Translatable, Servic
         // Load the text domain
         add_action( 'init', [ $this, 'load_textdomain' ], 5 );
         add_action( 'init', [ $this, 'maybe_load_plugin' ] );
+        $this->declare_hpos_compatibility( PLUGIN_FILE );
     }
 
     public function maybe_load_plugin() {
@@ -62,5 +63,13 @@ class Plugin extends Simple_Plugin implements Registerable, Translatable, Servic
     public function load_textdomain() {
         load_plugin_textdomain( 'woo-custom-add-to-cart-button', false, $this->get_slug() . '/languages' );
     }
+
+    public function declare_hpos_compatibility( $plugin_entry_file, $compatible = true ) {
+		add_action( 'before_woocommerce_init', function() use( $plugin_entry_file, $compatible ) {
+			if ( class_exists( \Automattic\WooCommerce\Utilities\FeaturesUtil::class ) ) {
+				\Automattic\WooCommerce\Utilities\FeaturesUtil::declare_compatibility( 'custom_order_tables', $plugin_entry_file, $compatible );
+			}
+		} );
+	}
 
 }

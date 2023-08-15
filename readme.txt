@@ -5,7 +5,7 @@ Donate link: https://barn2.com
 Requires at least: 5.2
 Tested up to: 6.3
 Requires PHP: 7.2
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -71,6 +71,12 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.2.2 =
+Release date 15 Aug 2023
+
+* Dev: Added HPOS compatibility
+* Dev: Tested up to WooCommerce 8.0.1
 
 = 1.2.1 = 
 Release date 20 June 2023 
