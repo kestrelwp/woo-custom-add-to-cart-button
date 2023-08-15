@@ -3,7 +3,7 @@ Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Donate link: https://barn2.com
 Requires at least: 5.2
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 7.2
 Stable tag: 1.2.1
 License: GNU General Public License v3.0
