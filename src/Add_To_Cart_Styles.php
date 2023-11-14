@@ -67,7 +67,8 @@ class Add_To_Cart_Styles implements Registerable {
     public function customize_add_to_cart_style() {
         $classes = ".button.add_to_cart_button, .single_add_to_cart_button,
         .button.product_type_variable, .button.product_type_grouped,
-        .button.product_type_simple, .button.product_type_external"; 
+        .button.product_type_simple, .button.product_type_external,
+        .wc-block-components-product-button__button"; 
         
         if( get_option( Util::OPTION_ADD_TO_CART_BACKGROUND_COLOR ) ) {
             echo '<style>
