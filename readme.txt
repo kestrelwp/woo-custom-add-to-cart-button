@@ -2,10 +2,10 @@
 Contributors: andykeith, barn2media
 Tags: woocommerce, cart, button
 Donate link: https://barn2.com
-Requires at least: 5.2
-Tested up to: 6.3
-Requires PHP: 7.2
-Stable tag: 1.2.2
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+Stable tag: 1.2.3
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -71,6 +71,12 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.2.3 =
+Release date 14 November 2023
+
+* Fix: The color was not changing for the block themes
+* Dev: Tested up to WordPress 6.4 and WooCommerce 8.2.2
 
 = 1.2.2 =
 Release date 15 Aug 2023
