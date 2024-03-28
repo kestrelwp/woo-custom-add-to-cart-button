@@ -8,9 +8,9 @@ use Barn2\WCB_Lib\Registerable,
  * Registers the Customizer settings.
  *
  * @package   Barn2\woo-custom-add-to-cart-button
- * @author    Barn2 Plugins <support@barn2.co.uk>
+ * @author    Kestrel <support@kestrelwp.com>
  * @license   GPL-3.0
- * @copyright Barn2 Media Ltd
+ * @copyright Kestrel
  */
 class Add_To_Cart_Customizer implements Registerable {
 
