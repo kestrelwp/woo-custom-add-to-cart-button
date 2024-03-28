@@ -1,11 +1,11 @@
 === WooCommerce Custom Add To Cart Button ===
-Contributors: andykeith, barn2media
+Contributors: kestrelwp
 Tags: woocommerce, cart, button
-Donate link: https://barn2.com
+Donate link: https://kestrelwp.com
 Requires at least: 6.0
-Tested up to: 6.4
+Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.2.3
+Stable tag: 1.2.4
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -32,11 +32,12 @@ WooCommerce Custom Add to Cart Button is fully accessible. If you choose to disp
 
 Options are set in the Customizer. Once installed, go to Appearance -> Customize -> WooCommerce -> Add to Cart Buttons and choose your settings.
 
-WooCommerce Custom Add to Cart Button is fully compatible with other Barn2 plugins, including:
+WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plugins, including:
 
-* [WooCommerce Product Table](https://barn2.com/wordpress-plugins/woocommerce-product-table/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - List products in a quick one-page order form.
-* [WooCommerce Quick View Pro](https://barn2.com/wordpress-plugins/woocommerce-quick-view-pro/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Speed up shopping by adding quick view lightboxes.
-* [WooCommerce Bulk Variations](https://barn2.com/wordpress-plugins/woocommerce-bulk-variations/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers buy multiple variations in a single click.
+* [Express Shop Page]](https://kestrelwp.com/product/express-shop-page-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Select variations and quantities without leaving the shop page.
+* [Discontinued Products](https://kestrelwp.com/product/discontinued-products-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Set WooCommerce products as “discontinued” without removing them from your store.
+* [Variation Prices](https://kestrelwp.com/product/variation-prices-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Improve the display of variation prices in your WooCommerce store.
+* [Product Sample](https://kestrelwp.com/product/product-sample-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers “try before they buy” with free or paid product samples.
 
 You can view the full [plugin documentation](https://barn2.com/kb-categories/custom-add-to-cart-kb/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) in our Knowledge Base.
 
@@ -71,6 +72,12 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.2.4 =
+Release date 27 March 2024
+
+* Misc: Update author to Kestrel
+* Dev: Tested up to WordPress 6.5 and WooCommerce 8.7
 
 = 1.2.3 =
 Release date 14 November 2023

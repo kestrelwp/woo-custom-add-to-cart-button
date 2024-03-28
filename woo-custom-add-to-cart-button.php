@@ -3,24 +3,27 @@
  * The main plugin file for WooCommerce Custom Add To Cart Button. Included during the bootstrap process if the plugin is active.
  *
  * @package   Barn2\woo-custom-add-to-cart-button
- * @author    Barn2 Plugins <support@barn2.co.uk>
+ * @author    Kestrel <support@kestrelwp.com>
  * @license   GPL-3.0
- * @copyright Barn2 Media Ltd
+ * @copyright Kestrel
  *
  * @wordpress-plugin
  * Plugin Name:     WooCommerce Custom Add To Cart Button
- * Plugin URI:      https://barn2.co.uk/wordpress-plugins/woo-custom-add-to-cart-button/
+ * Plugin URI:      https://kestrelwp.com/product/custom-add-to-cart-button-for-woocommerce/
  * Description:     Customize the Add to Cart buttons in WooCommerce by changing the text or adding a cart icon.
- * Version:         1.2.3
- * Author:          Barn2 Plugins
- * Author URI:      https://barn2.co.uk
+ * Version:         1.2.4
+ * Author:          Kestrel
+ * Author URI:      https://kestrelwp.com
  * Text Domain:     woo-custom-add-to-cart-button
  * Domain Path:     /languages
+ * Requires at least: 6.0
+ * Tested up to: 6.5
+ * Requires PHP: 7.4
  *
  * WC requires at least: 6.5
- * WC tested up to: 8.2.2
+ * WC tested up to: 8.7
  *
- * Copyright:       Barn2 Media Ltd
+ * Copyright:       Kestrel
  * License:         GNU General Public License v3.0
  * License URI:     https://www.gnu.org/licenses/gpl.html
  */
@@ -31,7 +34,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-const PLUGIN_VERSION = '1.2.3';
+const PLUGIN_VERSION = '1.2.4';
 const PLUGIN_FILE    = __FILE__;
 
 // Autoloader.

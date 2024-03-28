@@ -5,9 +5,9 @@ namespace Barn2\Plugin\WC_Custom_Cart_Button;
  * Factory to create/return the shared plugin instance.
  *
  * @package   Barn2\woo-custom-add-to-cart-button
- * @author    Barn2 Plugins <support@barn2.co.uk>
+ * @author    Kestrel <support@kestrelwp.com>
  * @license   GPL-3.0
- * @copyright Barn2 Media Ltd
+ * @copyright Kestrel
  */
 class Plugin_Factory {
 
