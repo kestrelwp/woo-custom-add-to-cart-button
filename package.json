@@ -1,6 +1,6 @@
 {
     "name": "woo-custom-add-to-cart-button",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "WooCommerce Custom Add to Cart Button plugin for WordPress.",
     "main": "gulpfile.js",
     "directories": {
