@@ -76,6 +76,9 @@ Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-
 = 1.2.4 =
 Release date 27 March 2024
 
+* Misc: Update author to Kestrel
+* Dev: Tested up to WordPress 6.5 and WooCommerce 8.7
+
 = 1.2.3 =
 Release date 14 November 2023
 
