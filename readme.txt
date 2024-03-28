@@ -1,7 +1,7 @@
 === WooCommerce Custom Add To Cart Button ===
-Contributors: andykeith, barn2media
+Contributors: kestrelwp
 Tags: woocommerce, cart, button
-Donate link: https://barn2.com
+Donate link: https://kestrelwp.com
 Requires at least: 6.0
 Tested up to: 6.4
 Requires PHP: 7.4
@@ -32,7 +32,7 @@ WooCommerce Custom Add to Cart Button is fully accessible. If you choose to disp
 
 Options are set in the Customizer. Once installed, go to Appearance -> Customize -> WooCommerce -> Add to Cart Buttons and choose your settings.
 
-WooCommerce Custom Add to Cart Button is fully compatible with other Barn2 plugins, including:
+WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plugins, including:
 
 * [WooCommerce Product Table](https://barn2.com/wordpress-plugins/woocommerce-product-table/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - List products in a quick one-page order form.
 * [WooCommerce Quick View Pro](https://barn2.com/wordpress-plugins/woocommerce-quick-view-pro/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Speed up shopping by adding quick view lightboxes.

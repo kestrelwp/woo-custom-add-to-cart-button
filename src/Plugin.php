@@ -14,9 +14,9 @@ use Barn2\Plugin\WC_Custom_Cart_Button\Admin\Add_To_Cart_Customizer,
  * The main plugin class.
  *
  * @package   Barn2\woo-custom-add-to-cart-button
- * @author    Barn2 Plugins <support@barn2.co.uk>
+ * @author    Kestrel <support@kestrelwp.com>
  * @license   GPL-3.0
- * @copyright Barn2 Media Ltd
+ * @copyright Kestrel
  */
 class Plugin extends Simple_Plugin implements Registerable, Translatable, Service_Provider {
 
