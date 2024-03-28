@@ -16,9 +16,12 @@
  * Author URI:      https://kestrelwp.com
  * Text Domain:     woo-custom-add-to-cart-button
  * Domain Path:     /languages
+ * Requires at least: 6.0
+ * Tested up to: 6.5
+ * Requires PHP: 7.4
  *
  * WC requires at least: 6.5
- * WC tested up to: 8.2.2
+ * WC tested up to: 8.7
  *
  * Copyright:       Kestrel
  * License:         GNU General Public License v3.0
