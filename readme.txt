@@ -34,9 +34,10 @@ Options are set in the Customizer. Once installed, go to Appearance -> Customize
 
 WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plugins, including:
 
-* [WooCommerce Product Table](https://barn2.com/wordpress-plugins/woocommerce-product-table/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - List products in a quick one-page order form.
-* [WooCommerce Quick View Pro](https://barn2.com/wordpress-plugins/woocommerce-quick-view-pro/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Speed up shopping by adding quick view lightboxes.
-* [WooCommerce Bulk Variations](https://barn2.com/wordpress-plugins/woocommerce-bulk-variations/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers buy multiple variations in a single click.
+* [Express Shop Page]](https://kestrelwp.com/product/express-shop-page-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Select variations and quantities without leaving the shop page.
+* [Discontinued Products](https://kestrelwp.com/product/discontinued-products-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Set WooCommerce products as “discontinued” without removing them from your store.
+* [Variation Prices](https://kestrelwp.com/product/variation-prices-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Improve the display of variation prices in your WooCommerce store.
+* [Product Sample](https://kestrelwp.com/product/product-sample-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers “try before they buy” with free or paid product samples.
 
 You can view the full [plugin documentation](https://barn2.com/kb-categories/custom-add-to-cart-kb/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) in our Knowledge Base.
 
