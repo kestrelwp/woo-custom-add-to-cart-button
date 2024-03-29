@@ -34,7 +34,7 @@ Options are set in the Customizer. Once installed, go to Appearance -> Customize
 
 WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plugins, including:
 
-* [Express Shop Page]](https://kestrelwp.com/product/express-shop-page-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Select variations and quantities without leaving the shop page.
+* [Express Shop Page](https://kestrelwp.com/product/express-shop-page-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Select variations and quantities without leaving the shop page.
 * [Discontinued Products](https://kestrelwp.com/product/discontinued-products-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Set WooCommerce products as “discontinued” without removing them from your store.
 * [Variation Prices](https://kestrelwp.com/product/variation-prices-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Improve the display of variation prices in your WooCommerce store.
 * [Product Sample](https://kestrelwp.com/product/product-sample-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers “try before they buy” with free or paid product samples.
