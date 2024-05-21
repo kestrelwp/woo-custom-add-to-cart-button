@@ -74,7 +74,7 @@ Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-
 == Changelog ==
 
 = 1.2.5 =
-Release date nn Month 2024
+Release date 22 May 2024
 
 * Fix: Ensure the plugin does not activate if WooCommerce is not active
 
