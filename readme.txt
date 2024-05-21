@@ -64,7 +64,7 @@ The plugin inherits the styles from your theme. This means that the button size 
 
 = Can I choose a different icon, change the size, change colors, etc? =
 
-We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://kestrelwp.slack.com/archives/C06MAPUJ78D/p1716305249255949?thread_ts=1716302269.299999&cid=C06MAPUJ78D">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
+We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://kestrelwp.com/support">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
 
 == Changelog ==
