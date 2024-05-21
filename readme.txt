@@ -39,8 +39,6 @@ WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plu
 * [Variation Prices](https://kestrelwp.com/product/variation-prices-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Improve the display of variation prices in your WooCommerce store.
 * [Product Sample](https://kestrelwp.com/product/product-sample-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers “try before they buy” with free or paid product samples.
 
-You can view the full [plugin documentation](https://barn2.com/kb-categories/custom-add-to-cart-kb/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) in our Knowledge Base.
-
 == Installation ==
 
 1. Install via the Plugins screen in your WordPress dashboard, or download the ZIP, extract it, and upload to the `/wp-content/plugins/` directory.
@@ -66,10 +64,8 @@ The plugin inherits the styles from your theme. This means that the button size 
 
 = Can I choose a different icon, change the size, change colors, etc? =
 
-We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://barn2.com/plugin-feature-request/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
+We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://kestrelwp.slack.com/archives/C06MAPUJ78D/p1716305249255949?thread_ts=1716302269.299999&cid=C06MAPUJ78D">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
-= Where can I find the documentation? =
-Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
 
