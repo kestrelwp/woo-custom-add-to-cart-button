@@ -5,7 +5,7 @@ Donate link: https://kestrelwp.com
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 1.2.4
+Stable tag: 1.2.5
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -39,8 +39,6 @@ WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plu
 * [Variation Prices](https://kestrelwp.com/product/variation-prices-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Improve the display of variation prices in your WooCommerce store.
 * [Product Sample](https://kestrelwp.com/product/product-sample-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Let customers “try before they buy” with free or paid product samples.
 
-You can view the full [plugin documentation](https://barn2.com/kb-categories/custom-add-to-cart-kb/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) in our Knowledge Base.
-
 == Installation ==
 
 1. Install via the Plugins screen in your WordPress dashboard, or download the ZIP, extract it, and upload to the `/wp-content/plugins/` directory.
@@ -66,12 +64,15 @@ The plugin inherits the styles from your theme. This means that the button size 
 
 = Can I choose a different icon, change the size, change colors, etc? =
 
-We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://barn2.com/plugin-feature-request/?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
+We've kept the plugin deliberately simple and it's not currently possible to make other changes such as different icons. Please use the support tab or our <a href="https://kestrelwp.com/support">feature request form</a> if there's anything else you'd like the plugin to do. We will add new features if there is enough demand.
 
-= Where can I find the documentation? =
-Please visit our [Knowledge Base](https://barn2.com/kb-categories/custom-add-to-cart-kb?utm=content&utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free/).
 
 == Changelog ==
+
+= 1.2.5 =
+Release date 22 May 2024
+
+* Fix: Ensure the plugin does not activate if WooCommerce is not active
 
 = 1.2.4 =
 Release date 27 March 2024

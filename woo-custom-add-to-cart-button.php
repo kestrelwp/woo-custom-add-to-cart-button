@@ -11,7 +11,7 @@
  * Plugin Name:     WooCommerce Custom Add To Cart Button
  * Plugin URI:      https://kestrelwp.com/product/custom-add-to-cart-button-for-woocommerce/
  * Description:     Customize the Add to Cart buttons in WooCommerce by changing the text or adding a cart icon.
- * Version:         1.2.4
+ * Version:         1.2.5
  * Author:          Kestrel
  * Author URI:      https://kestrelwp.com
  * Text Domain:     woo-custom-add-to-cart-button
@@ -20,6 +20,7 @@
  * Tested up to: 6.5
  * Requires PHP: 7.4
  *
+ * Requires Plugins: woocommerce
  * WC requires at least: 6.5
  * WC tested up to: 8.7
  *
@@ -34,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 
-const PLUGIN_VERSION = '1.2.4';
+const PLUGIN_VERSION = '1.2.5';
 const PLUGIN_FILE    = __FILE__;
 
 // Autoloader.
