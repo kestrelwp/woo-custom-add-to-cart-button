@@ -2,3 +2,4 @@
 /assets/css/*.css.map
 /node_modules/
 /.github/
+*/.DS_Store
