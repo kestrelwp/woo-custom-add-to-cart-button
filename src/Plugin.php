@@ -20,7 +20,7 @@ use Barn2\Plugin\WC_Custom_Cart_Button\Admin\Add_To_Cart_Customizer,
  */
 class Plugin extends Simple_Plugin implements Registerable, Translatable, Service_Provider {
 
-    const NAME = 'WooCommerce Custom Add To Cart Button';
+    const NAME = 'Custom Add To Cart Button for WooCommerce';
 
     use Service_Container;
 

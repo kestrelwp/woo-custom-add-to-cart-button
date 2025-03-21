@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
-"Project-Id-Version: WooCommerce Custom Add To Cart Button\n"
+"Project-Id-Version: Custom Add To Cart Button for WooCommerce\n"
 "POT-Creation-Date: 2018-02-21 14:52+0000\n"
 "PO-Revision-Date: 2018-02-21 14:52+0000\n"
 "Last-Translator: Andrew Keith <andy@barn2.co.uk>\n"
@@ -75,7 +75,7 @@ msgid "Button text color"
 msgstr ""
 
 #. Plugin Name of the plugin/theme
-msgid "WooCommerce Custom Add To Cart Button"
+msgid "Custom Add To Cart Button for WooCommerce"
 msgstr ""
 
 #. Plugin URI of the plugin/theme
