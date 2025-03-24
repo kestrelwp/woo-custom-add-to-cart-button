@@ -1,0 +1,11 @@
+*.md
+.github
+assets
+composer*
+dist
+ignore*
+lcov-report
+legacy
+node_modules
+vendor
+vendor-scoped

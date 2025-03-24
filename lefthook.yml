@@ -1,0 +1,22 @@
+
+pre-commit:
+  commands:
+    # Run php-cs-fixer on staged PHP files
+    phpcs:
+      glob: "**/*.php"
+      run: ./vendor/bin/php-cs-fixer fix --using-cache=no --path-mode=intersection --config=./vendor/kestrelwp/owl/src/php-cs-fixer.php {staged_files}
+
+post-merge:
+  commands:
+    # Ensure to run composer install if composer.lock dependencies have changed upon merge
+    composer_install:
+      run: |
+        if [[ $(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep composer.lock) ]]; then
+          yes | composer install --no-interaction --no-progress --no-suggest
+        fi
+    # Ensure to run pnpm install if pnpm-lock.yaml dependencies have changed upon merge
+    pnpm_install:
+      run: |
+        if [[ $(git diff-tree -r --name-only --no-commit-id ORIG_HEAD HEAD | grep pnpm-lock.yaml) ]]; then
+          yes | pnpm install
+        fi

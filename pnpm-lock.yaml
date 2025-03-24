@@ -11,6 +11,9 @@ importers:
       gulp:
         specifier: ^4.0.2
         version: 4.0.2
+      lefthook:
+        specifier: ^1.11.3
+        version: 1.11.4
 
 packages:
 
@@ -674,6 +677,60 @@ packages:
   lead@1.0.0:
     resolution: {integrity: sha512-IpSVCk9AYvLHo5ctcIXxOBpMWUe+4TKN3VPWAKUbJikkmsGp0VrSM8IttVc32D6J4WUsiPE6aEFRNmIoF/gdow==, tarball: https://registry.npmjs.org/lead/-/lead-1.0.0.tgz}
     engines: {node: '>= 0.10'}
+
+  lefthook-darwin-arm64@1.11.4:
+    resolution: {integrity: sha512-/qHQzp27vjEkm93dzqhmYKcol347ZwvLTJ2aFv8D05A3ogAMJEbcMSiUUIQcfKhKtfQ3K64bGqcozdj1n7SJTg==, tarball: https://registry.npmjs.org/lefthook-darwin-arm64/-/lefthook-darwin-arm64-1.11.4.tgz}
+    cpu: [arm64]
+    os: [darwin]
+
+  lefthook-darwin-x64@1.11.4:
+    resolution: {integrity: sha512-yw9mxNH6Q/6AVcXCs7XaSifBX+Ybc/9IrF5TXeGg2EkM84Nuwc8lQlf73OYvrP1l7WAUO07MiMsthiVHy94GFQ==, tarball: https://registry.npmjs.org/lefthook-darwin-x64/-/lefthook-darwin-x64-1.11.4.tgz}
+    cpu: [x64]
+    os: [darwin]
+
+  lefthook-freebsd-arm64@1.11.4:
+    resolution: {integrity: sha512-kIpVaHnfpgB1b5KvrkPFESZVzDef0q42nS9Q9bHfXWFsy0TZaDqyVSqbLmT0Rbw68ts4nuLTPI+MaLkS7Nbalw==, tarball: https://registry.npmjs.org/lefthook-freebsd-arm64/-/lefthook-freebsd-arm64-1.11.4.tgz}
+    cpu: [arm64]
+    os: [freebsd]
+
+  lefthook-freebsd-x64@1.11.4:
+    resolution: {integrity: sha512-lQ+C5HJCp8ylFMgfuNajEoSo3g2uZI5VdA6D79qJc5QmCG/tm2cmvFjVV9IdTNXTh3PJTCO89q7+ikpJs4Bc2Q==, tarball: https://registry.npmjs.org/lefthook-freebsd-x64/-/lefthook-freebsd-x64-1.11.4.tgz}
+    cpu: [x64]
+    os: [freebsd]
+
+  lefthook-linux-arm64@1.11.4:
+    resolution: {integrity: sha512-/gqeN7Py9uERRPAMAFHyzNtvWDhrSymBYcqX0ppO+UZyd5y9BWXvhn+zyZco92unOBGUKMDeTqHr26WnkpO9gQ==, tarball: https://registry.npmjs.org/lefthook-linux-arm64/-/lefthook-linux-arm64-1.11.4.tgz}
+    cpu: [arm64]
+    os: [linux]
+
+  lefthook-linux-x64@1.11.4:
+    resolution: {integrity: sha512-wNwOMKoRQEwZhf2MVI7gCqsQDA6Ewvrk+gW1Sb+tHEgtVoWPhnR3emGWL6PlQZBsxo1vfPgFA269vJ4ukBwV4A==, tarball: https://registry.npmjs.org/lefthook-linux-x64/-/lefthook-linux-x64-1.11.4.tgz}
+    cpu: [x64]
+    os: [linux]
+
+  lefthook-openbsd-arm64@1.11.4:
+    resolution: {integrity: sha512-DXA5VaXJ/uC1inXs5N/HBf09Jf4XtOowujg75bds4+VFkFVasePqwbH0vRITqYrnhWZYQOWwzbDuPMwC+1mHCw==, tarball: https://registry.npmjs.org/lefthook-openbsd-arm64/-/lefthook-openbsd-arm64-1.11.4.tgz}
+    cpu: [arm64]
+    os: [openbsd]
+
+  lefthook-openbsd-x64@1.11.4:
+    resolution: {integrity: sha512-N/xyGDORBzgArkZkecejqSNPAw6wqNWTXma3X1J4Nl3mUp1LA+QA3fXQvcmeTbEQtt3CRYnWJ24Kq3Fn1IG+1w==, tarball: https://registry.npmjs.org/lefthook-openbsd-x64/-/lefthook-openbsd-x64-1.11.4.tgz}
+    cpu: [x64]
+    os: [openbsd]
+
+  lefthook-windows-arm64@1.11.4:
+    resolution: {integrity: sha512-H+3lm6QzPESedKD5vo3tj3Np2zed/O1IyI+qQfD7/pVF5L9sgft+yFsnd5EpXcorYuyDG9ffjpHHIVl0C5NSXw==, tarball: https://registry.npmjs.org/lefthook-windows-arm64/-/lefthook-windows-arm64-1.11.4.tgz}
+    cpu: [arm64]
+    os: [win32]
+
+  lefthook-windows-x64@1.11.4:
+    resolution: {integrity: sha512-QC1Xp+qZxePDVq43fsYjhuIa+QRDn5qCZ9gWCfzqX7OUgk7IWBU4yaI0DiUjBEci+CZ6vIM1R8HUBwZH7z1eTg==, tarball: https://registry.npmjs.org/lefthook-windows-x64/-/lefthook-windows-x64-1.11.4.tgz}
+    cpu: [x64]
+    os: [win32]
+
+  lefthook@1.11.4:
+    resolution: {integrity: sha512-8Eut/Q3kQpWL4l74lQFsLqBVRJuuChNYOCE+U/FARstPypZCmAN13p2EtGWMSt0nbPRHdvXN1XVcIKHarAFEZA==, tarball: https://registry.npmjs.org/lefthook/-/lefthook-1.11.4.tgz}
+    hasBin: true
 
   liftoff@3.1.0:
     resolution: {integrity: sha512-DlIPlJUkCV0Ips2zf2pJP0unEoT1kwYhiiPUGF3s/jtxTCjziNLoiVVh+jqWOWeFi6mmwQ5fNxvAUyPad4Dfog==, tarball: https://registry.npmjs.org/liftoff/-/liftoff-3.1.0.tgz}
@@ -1956,6 +2013,49 @@ snapshots:
   lead@1.0.0:
     dependencies:
       flush-write-stream: 1.1.1
+
+  lefthook-darwin-arm64@1.11.4:
+    optional: true
+
+  lefthook-darwin-x64@1.11.4:
+    optional: true
+
+  lefthook-freebsd-arm64@1.11.4:
+    optional: true
+
+  lefthook-freebsd-x64@1.11.4:
+    optional: true
+
+  lefthook-linux-arm64@1.11.4:
+    optional: true
+
+  lefthook-linux-x64@1.11.4:
+    optional: true
+
+  lefthook-openbsd-arm64@1.11.4:
+    optional: true
+
+  lefthook-openbsd-x64@1.11.4:
+    optional: true
+
+  lefthook-windows-arm64@1.11.4:
+    optional: true
+
+  lefthook-windows-x64@1.11.4:
+    optional: true
+
+  lefthook@1.11.4:
+    optionalDependencies:
+      lefthook-darwin-arm64: 1.11.4
+      lefthook-darwin-x64: 1.11.4
+      lefthook-freebsd-arm64: 1.11.4
+      lefthook-freebsd-x64: 1.11.4
+      lefthook-linux-arm64: 1.11.4
+      lefthook-linux-x64: 1.11.4
+      lefthook-openbsd-arm64: 1.11.4
+      lefthook-openbsd-x64: 1.11.4
+      lefthook-windows-arm64: 1.11.4
+      lefthook-windows-x64: 1.11.4
 
   liftoff@3.1.0:
     dependencies:

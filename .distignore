@@ -34,6 +34,7 @@ composer.*
 eslint.*
 global.php.css
 Gruntfile.js
+gulpfile.js
 lefthook.yml
 owl.json
 package-lock.json

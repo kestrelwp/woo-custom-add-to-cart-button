@@ -1,0 +1,7 @@
+# default code owners for the repository
+* @kestrelwp/engineering
+
+# typically files in these folders are updated via Owl sync and we don't want to trigger too many emails across the board
+# see https://github.com/kestrelwp/owl#sync-workflow
+/.github/**
+/*
