@@ -1,11 +1,11 @@
-=== WooCommerce Custom Add To Cart Button ===
+=== Custom Add To Cart Button for WooCommerce ===
 Contributors: kestrelwp
 Tags: woocommerce, cart, button
 Donate link: https://kestrelwp.com
 Requires at least: 6.0
-Tested up to: 6.5
+Tested up to: 6.7.2
 Requires PHP: 7.4
-Stable tag: 1.2.5
+Stable tag: 1.2.6
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl.html
 
@@ -13,7 +13,7 @@ Customize the Add to Cart buttons in WooCommerce by changing the text, adding a 
 
 == Description ==
 
-WooCommerce Custom Add to Cart Button is a simple plugin to customize your store's add to cart buttons. It makes it easy to change the 'Add to cart' button text, add a cart icon to the button, replace the text with just an icon, or change the background and text color.
+Custom Add To Cart Button for WooCommerce is a simple plugin to customize your store's add to cart buttons. It makes it easy to change the 'Add to cart' button text, add a cart icon to the button, replace the text with just an icon, or change the background and text color.
 
 There are lots of reasons why you might want to change the add to cart text. Depending on how you're using WooCommerce you might want the button to say something different like 'Add to quote', 'Buy Now', 'BOOK EVENT', 'Enrol' or 'Make an Enquiry'.
 
@@ -28,11 +28,11 @@ Add to cart button options:
 * Change the WooCommerce add to cart button color
 * Change the color of WooCommerce add to cart button text
 
-WooCommerce Custom Add to Cart Button is fully accessible. If you choose to display just the cart icon, the text is still present in the HTML and can be read by screen readers.
+Custom Add To Cart Button for WooCommerce is fully accessible. If you choose to display just the cart icon, the text is still present in the HTML and can be read by screen readers.
 
 Options are set in the Customizer. Once installed, go to Appearance -> Customize -> WooCommerce -> Add to Cart Buttons and choose your settings.
 
-WooCommerce Custom Add to Cart Button is fully compatible with other Kestrel plugins, including:
+Custom Add To Cart Button for WooCommerce is fully compatible with other Kestrel plugins, including:
 
 * [Express Shop Page](https://kestrelwp.com/product/express-shop-page-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Select variations and quantities without leaving the shop page.
 * [Discontinued Products](https://kestrelwp.com/product/discontinued-products-woocommerce/?utm_source=wporg&utm_medium=freeplugin&utm_campaign=freepluginwporg&utm_content=atoc-free) - Set WooCommerce products as “discontinued” without removing them from your store.
@@ -69,6 +69,12 @@ We've kept the plugin deliberately simple and it's not currently possible to mak
 
 == Changelog ==
 
+= 1.2.6 =
+Release date 24 March 2025
+
+* Misc: Update plugin name to Custom Add To Cart Button for WooCommerce
+* Dev: Tested up to WordPress 6.7.2 and WooCommerce 9.7.1
+
 = 1.2.5 =
 Release date 22 May 2024
 
@@ -92,13 +98,13 @@ Release date 15 Aug 2023
 * Dev: Added HPOS compatibility
 * Dev: Tested up to WooCommerce 8.0.1
 
-= 1.2.1 = 
-Release date 20 June 2023 
+= 1.2.1 =
+Release date 20 June 2023
 
 * Fix: Apply the background and text color to all buttons
 
 = 1.2.0 =
-Release date 18 June 2023 
+Release date 18 June 2023
 
 * Tested up to WordPress 6.2
 * Tested up to WooCommerce 7.8.0
@@ -106,9 +112,9 @@ Release date 18 June 2023
 * Add an option to change the button's text color
 
 = 1.1.5 =
-Release date 05 Mar 2023 
+Release date 05 Mar 2023
 
- * Tested up to WooCommerce 7.4.1 
+ * Tested up to WooCommerce 7.4.1
 
 = 1.1.4 =
 Release date 24 Nov 2022

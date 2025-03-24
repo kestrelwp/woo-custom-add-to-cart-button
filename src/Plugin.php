@@ -20,7 +20,7 @@ use Barn2\Plugin\WC_Custom_Cart_Button\Admin\Add_To_Cart_Customizer,
  */
 class Plugin extends Simple_Plugin implements Registerable, Translatable, Service_Provider {
 
-    const NAME = 'WooCommerce Custom Add To Cart Button';
+    const NAME = 'Custom Add To Cart Button for WooCommerce';
 
     use Service_Container;
 
@@ -61,7 +61,7 @@ class Plugin extends Simple_Plugin implements Registerable, Translatable, Servic
     }
 
     public function load_textdomain() {
-        load_plugin_textdomain( 'woo-custom-add-to-cart-button', false, $this->get_slug() . '/languages' );
+        load_plugin_textdomain( 'woo-custom-add-to-cart-button', false, $this->get_slug() . '/i18n/languages' );
     }
 
     public function declare_hpos_compatibility( $plugin_entry_file, $compatible = true ) {

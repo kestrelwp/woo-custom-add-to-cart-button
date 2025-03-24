@@ -1,5 +1,5 @@
 const pluginData = {
-    name: 'WooCommerce Custom Add To Cart Button',
+    name: 'Custom Add To Cart Button for WooCommerce',
     libNamespace: 'Barn2\\WCB_Lib',
     libIncludes: ['Plugin/Plugin.php', 'Plugin/Simple_Plugin.php', 'Plugin/Admin/Admin_Links.php', 'Registerable.php', 'Conditional.php', 'Service.php',
         'Service_Container.php', 'Service_Provider.php', 'Translatable.php', 'Util.php']

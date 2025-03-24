@@ -1,0 +1,8 @@
+{
+    "package": "woo-custom-add-to-cart-button",
+    "plugin": {
+        "basename": "woo-custom-add-to-cart-button",
+        "main": "woo-custom-add-to-cart-button",
+        "textdomain": "woo-custom-add-to-cart-button"
+    }
+}
