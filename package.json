@@ -20,7 +20,7 @@
     "homepage": "https://github.com/kestrelwp/woo-custom-add-to-cart-button#readme",
     "devDependencies": {
         "lefthook": "^1.11.3",
-        "gulp": "^4.0.2"
+        "gulp": "^5.0.0"
     },
     "packageManager": "pnpm@8.12.1+sha512.6705ea1966adb6587053e6cfe6fddc377f81066228daf736c4490012f44f2ff1bf0c713bb8f3145fce0e3ef669c7c15f19a59ac157838951f234c17b81ca655d"
 }
