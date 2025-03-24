@@ -1,5 +1,81 @@
-/assets/.sass-cache/
-/assets/css/*.css.map
+# Editors
+!.vscode/*.shared.json
+!.vscode/extensions.json
+!.vscode/launch.json
+*.sublime-project
+*.sublime-workspace
+.buildpath
+.idea
+.phpactor.json
+.project
+.settings*
+.sublimelinterrc
+.vscode/*
+/nbproject/private/
+project.properties
+project.xml
+
+# Temporary files
+/.tmp-**
+/.temp-**
+/tmp-**
+/temp-**
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Caches
+*.cache
+
+# Local dev config
+.env
+.env.dev
+.env.development
+
+# Sass
+.sass-cache/
+
+# Node Modules
 /node_modules/
-/.github/
-*/.DS_Store
+
+# Composer & Scoper
+/vendor/
+/vendor-scoped
+
+# Packages
+/packages/
+
+# Minified CSS
+/client/**/*.min.css
+/assets/css/**/*.min.css
+/assets/css/**/*.map
+
+# Minified JS
+/*.min.js
+/client/**/*.min.js
+/assets/js/**/*.min.js
+/assets/js/**/*.map
+webpack.config.min.js
+
+# Build
+*.bak
+assets/blocks
+assets/css/admin
+assets/css/blocks
+assets/css/frontend
+assets/js/admin
+assets/js/blocks
+assets/js/frontend
+build/
+
+# Frontend development
+**/*.hot-update.*
+
+# Test artifacts and support files
+tests/e2e/playwright-report
+tests/e2e/test-results
+tests/e2e/.auth
