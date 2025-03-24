@@ -1,21 +1,33 @@
 {
-    "name": "kestrelwp/woo-custom-add-to-cart-button",
-    "description": "Custom Add To Cart Button for WooCommerce",
-    "type": "wordpress-plugin",
-    "license": "GPL-3.0",
-    "authors": [
-        {
-            "name": "Kestrel",
-            "email": "support@kestrelwp.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "Barn2\\Plugin\\WC_Custom_Cart_Button\\": "src",
-            "Barn2\\WCB_Lib\\": "lib"
-        },
-        "files": []
+  "name": "kestrelwp/woo-custom-add-to-cart-button",
+  "description": "Custom Add To Cart Button for WooCommerce",
+  "type": "wordpress-plugin",
+  "license": "GPL-3.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:kestrelwp/owl.git"
     }
+  ],
+  "require": {
+    "php": ">=7.4 <9.0"
+  },
+  "require-dev": {
+    "kestrelwp/owl": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Barn2\\Plugin\\WC_Custom_Cart_Button\\": "src",
+      "Barn2\\WCB_Lib\\": "lib"
+    },
+    "files": []
+  },
+  "config": {
+    "allow-plugins": {
+      "woocommerce/monorepo-plugin": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
 }

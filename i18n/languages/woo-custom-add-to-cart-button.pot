@@ -1,0 +1,77 @@
+# Copyright (C) 2025 Kestrel
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Add To Cart Button for WooCommerce 1.2.6\n"
+"Report-Msgid-Bugs-To: https://kestrelwp.com/contact/\n"
+"Last-Translator: Kestrel <support@kestrelwp.com>\n"
+"Language-Team: Kestrel <support@kestrelwp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-24T04:47:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0-alpha-59d94e3\n"
+"Copyright: (C) 2025 Kestrel\n"
+
+#. Plugin Name of the plugin
+#: woo-custom-add-to-cart-button.php
+msgid "Custom Add To Cart Button for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: woo-custom-add-to-cart-button.php
+msgid "https://kestrelwp.com/product/custom-add-to-cart-button-for-woocommerce/"
+msgstr ""
+
+#. Description of the plugin
+#: woo-custom-add-to-cart-button.php
+msgid "Customize the Add to Cart buttons in WooCommerce by changing the text or adding a cart icon."
+msgstr ""
+
+#. Author of the plugin
+#: woo-custom-add-to-cart-button.php
+msgid "Kestrel"
+msgstr ""
+
+#. Author URI of the plugin
+#: woo-custom-add-to-cart-button.php
+msgid "https://kestrelwp.com"
+msgstr ""
+
+#: src/Add_To_Cart_Replacer.php:36
+#: src/Admin/Add_To_Cart_Customizer.php:60
+msgid "Add to cart"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:43
+msgid "WooCommerce"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:53
+msgid "Add To Cart Buttons"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:68
+msgid "Add to cart text"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:69
+msgid "The text for the add to cart buttons."
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:86
+msgid "Show add to cart icon"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:103
+msgid "Hide the add to cart text"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:118
+msgid "Button background"
+msgstr ""
+
+#: src/Admin/Add_To_Cart_Customizer.php:132
+msgid "Button text color"
+msgstr ""
